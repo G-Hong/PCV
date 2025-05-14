@@ -85,13 +85,6 @@ This research was published in:
 For questions or collaboration inquiries, please contact:
 - Gina Hong: ghong@nexodim.com
 
-## License
-
-[License information to be added]
-
-## Acknowledgments
-
-This research was supported by the Institute of Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korean government.
 
 ---
 
