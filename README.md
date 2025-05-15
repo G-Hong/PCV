@@ -14,6 +14,8 @@ This research proposes PCV (PoS for Content Validation), a novel consensus algor
 - **Gina Hong** (ghong@nexodim.com)
 - **Jin Woo Jung** (kuntdari@korea.ac.kr)  
 - **Hoh Peter In** (hoh_in@korea.ac.kr)
+
+  
 Department of Computer Science and Engineering, Korea University
 
 ## Key Features
