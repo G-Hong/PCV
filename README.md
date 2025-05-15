@@ -7,7 +7,7 @@ This research proposes PCV (PoS for Content Validation), a novel consensus algor
 *Figure 1: PCV System Architecture showing content verification workflow with transaction pools, validator selection, and block processing.*
 
 ## Platform Layer Structure
-![Blockchain Platform Layers](blockchain_layers.png)
+![Blockchain Platform Layers](blockchain_layers.jpg)
 *Figure 2: Layered architecture of the blockchain platform including Decentralized Application Layer, Data Layer, Consensus Layer, and Network Layer with corresponding Environment components.*
 
 ## Authors
