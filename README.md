@@ -14,12 +14,9 @@ This research proposes PCV (PoS for Content Validation), a novel consensus algor
 - **Gina Hong** (ghong@nexodim.com)
 - **Jin Woo Jung** (kuntdari@korea.ac.kr)  
 - **Hoh Peter In** (hoh_in@korea.ac.kr)
-
-  
 Department of Computer Science and Engineering, Korea University
 
 ## Key Features
-
 ### Direct Democracy Consensus
 - Enables all token holders to participate in content validation voting
 - Unlike traditional PoS: no minimum stake requirement (vs Ethereum's 32 ETH minimum)
@@ -29,6 +26,19 @@ Department of Computer Science and Engineering, Korea University
 - Mathematically proven to reach Nash equilibrium when users vote for correct content
 - Probability of collective correct decision increases with participant count
 - Provides economic incentives for honest behavior
+
+### Mathematical Foundation
+The system's reliability is based on binomial distribution, where:
+
+$$P\left(X \geq \left[\frac{N}{2}+1\right]\right) = \sum_{x=\left[\frac{N}{2}+1\right]}^{N} \binom{N}{x}a^x(1-a)^{N-x}$$
+
+Where:
+- P(X) represents the probability of the collective decision being correct
+- N is the total number of voters
+- a is the probability of an individual voter making the correct decision (assumed > 0.5)
+- The formula shows that as the number of participants (N) increases, the probability of making the correct collective decision approaches 1
+
+This mathematical framework ensures that when individual accuracy exceeds 0.5, the Nash equilibrium is achieved when voting honestly is the optimal strategy for all participants.
 
 ### Content Validation Process
 1. Users submit content to Dapp
