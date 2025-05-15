@@ -1,7 +1,7 @@
 # PCV: PoS for Content Validation in Web3.0 Platform
 
 ## Awards
-- **Best Paper Award** from the Korea Blockchain Society, 2024
+- **Best Paper Award** from the Korea Blockchain Society, 2022
 
 ## Overview
 This research proposes PCV (PoS for Content Validation), a novel consensus algorithm based on Proof of Stake (PoS) designed to validate content authenticity in Web 3.0 Dapp platforms. Unlike traditional PoS systems where only large stakeholders participate in consensus, PCV enables direct democratic participation where any token holder can vote on content validity.
